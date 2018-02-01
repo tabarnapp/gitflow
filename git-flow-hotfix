@@ -184,11 +184,10 @@ cmd_start() {
 	echo "- You are now on branch '$BRANCH'"
 	echo
 	echo "Follow-up actions:"
-	echo "- Bump the version number now!"
 	echo "- Start committing your hot fixes"
 	echo "- When done, run:"
 	echo
-	echo "     git flow hotfix finish '$VERSION'"
+	echo "     tabarnapp_flow hotfix finish '$VERSION'"
 	echo
 }
 

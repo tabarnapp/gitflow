@@ -179,11 +179,10 @@ cmd_start() {
 	echo "- You are now on branch '$BRANCH'"
 	echo
 	echo "Follow-up actions:"
-	echo "- Bump the version number now!"
 	echo "- Start committing last-minute fixes in preparing your release"
 	echo "- When done, run:"
 	echo
-	echo "     git flow release finish '$VERSION'"
+	echo "     tabanapp_flow release finish '$VERSION'"
 	echo
 }
 
