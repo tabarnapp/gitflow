@@ -177,18 +177,6 @@ cmd_start() {
 
 	# create branch
 	git_do checkout -b "$BRANCH" "$BASE"
-
-	echo
-	echo "Summary of actions:"
-	echo "- A new branch '$BRANCH' was created, based on '$BASE'"
-	echo "- You are now on branch '$BRANCH'"
-	echo
-	echo "Follow-up actions:"
-	echo "- Start committing your hot fixes"
-	echo "- When done, run:"
-	echo
-	echo "     tabarnapp_flow hotfix finish '$VERSION'"
-	echo
 }
 
 cmd_publish() {
